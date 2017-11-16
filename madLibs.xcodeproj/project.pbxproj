@@ -14,6 +14,8 @@
 		0C1543641FBD2B9300E46503 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1543621FBD2B9300E46503 /* LaunchScreen.storyboard */; };
 		0C15436F1FBD2B9400E46503 /* madLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C15436E1FBD2B9400E46503 /* madLibsTests.swift */; };
 		0C15437A1FBD2B9400E46503 /* madLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1543791FBD2B9400E46503 /* madLibsUITests.swift */; };
+		0C1543881FBD2F4900E46503 /* MadLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1543871FBD2F4900E46503 /* MadLibViewController.swift */; };
+		0C15438A1FBD633E00E46503 /* AddItemDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1543891FBD633E00E46503 /* AddItemDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0C1543751FBD2B9400E46503 /* madLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1543791FBD2B9400E46503 /* madLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = madLibsUITests.swift; sourceTree = "<group>"; };
 		0C15437B1FBD2B9400E46503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C1543871FBD2F4900E46503 /* MadLibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibViewController.swift; sourceTree = "<group>"; };
+		0C1543891FBD633E00E46503 /* AddItemDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				0C1543591FBD2B9300E46503 /* AppDelegate.swift */,
 				0C15435B1FBD2B9300E46503 /* ViewController.swift */,
 				0C15435D1FBD2B9300E46503 /* Main.storyboard */,
+				0C1543891FBD633E00E46503 /* AddItemDelegate.swift */,
+				0C1543871FBD2F4900E46503 /* MadLibViewController.swift */,
 				0C1543601FBD2B9300E46503 /* Assets.xcassets */,
 				0C1543621FBD2B9300E46503 /* LaunchScreen.storyboard */,
 				0C1543651FBD2B9400E46503 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				0C15435C1FBD2B9300E46503 /* ViewController.swift in Sources */,
 				0C15435A1FBD2B9300E46503 /* AppDelegate.swift in Sources */,
+				0C1543881FBD2F4900E46503 /* MadLibViewController.swift in Sources */,
+				0C15438A1FBD633E00E46503 /* AddItemDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
